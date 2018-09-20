@@ -1,0 +1,10 @@
+<!--pages/e/e.wxml-->
+<view >
+
+  <text>pages/e/e.wxml</text>
+  <m-d bindmyclick="ddd" parametod="{{val}}"></m-d>
+ 
+</view>
+
+
+

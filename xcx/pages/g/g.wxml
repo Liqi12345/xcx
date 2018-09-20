@@ -1,0 +1,3 @@
+<!--pages/g/g.wxml-->
+<text>pages/g/g.wxml</text>
+<textarea value='0' style='width:450rpx;height:{{current_width}}rpx;border:1rpx solid red' bindinput='changeinput'> </textarea>

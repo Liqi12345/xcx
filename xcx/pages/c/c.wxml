@@ -1,0 +1,10 @@
+<!--pages/c/c.wxml-->
+<text>pages/c/c.wxml</text>
+<block wx:for="{{tips}}">
+   <view style="width:100%;height:200rpx;">
+      <input data-id="{{index}}" value="" bindchange="bindKeyInput" placeholder="输入文字以继续"/>
+      <view>{{item.inputValue}}</view>
+   </view>
+</block>
+<include src="/pages/index/index"/>
+<!-- <template is="aa"></template>  -->

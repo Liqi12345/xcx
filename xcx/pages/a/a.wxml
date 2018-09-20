@@ -1,0 +1,10 @@
+<!--pages/a/a.wxml-->
+<view bindlongtap='md5'>
+  <text  data-abc='125'>pages/a/a.wxml</text>
+  <text  data-abcd='963'>pages/a/a.wxml</text>
+</view>
+
+<!-- <template name="aa"> 
+<view>22</view>
+<view>33</view>
+</template> -->

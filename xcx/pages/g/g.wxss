@@ -1,0 +1,4 @@
+/* pages/g/g.wxss */
+::-webkit-scrollbar {
+            width: 0px;
+        }

@@ -1,0 +1,13 @@
+<!--pages/logs1/logs1.wxml-->
+<text bindtap='scan'>我是自定义</text>
+<button open-type='share'> ww </button>
+<text bindlongpress='so'>我是自定义1</text>
+<!-- <navigator url="../../pages/a/a">跳转A</navigator> -->
+<view bindtap='navigaterto'>{{text}}</view>
+<!-- <navigator open-type='navigateTo' url='{{id==1 ? "../../pages/a/a" : "../../pages/c/c"}}'>
+  {{id==1 ? "aaa" : "ccc"}}
+</navigator> -->
+<import src="/pages/logs/logs"/>
+
+<template is="aaa"></template>
+<template name="bbb">bbb</template>

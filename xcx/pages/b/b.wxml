@@ -1,0 +1,14 @@
+<!--pages/b/b.wxml-->
+<text>pages/b/b.wxml</text>
+<view bindtap='navigaterto'>跳转公告</view>
+<view bindtap='navigaterto1'>跳转公告1</view>
+<view></view>
+<image src="{{img}}"></image>
+<import src="/pages/logs1/logs1"/>
+<import src="/pages/logs/logs"/>
+<template is="aaa"></template>
+<template is="bbb"></template>
+<include src="../logs1/logs1" data=""/>
+<view wx:if="{{length > 5}}"> 1 </view>
+<view wx:elif="{{length > 2}}"> 2 </view>
+<view wx:else> 3 </view>

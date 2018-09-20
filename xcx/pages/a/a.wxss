@@ -1,0 +1,4 @@
+/* pages/a/a.wxss */
+input{
+  color:aquamarine;
+}

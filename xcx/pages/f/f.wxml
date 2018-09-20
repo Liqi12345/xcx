@@ -1,0 +1,9 @@
+<!--pages/f/f.wxml-->
+
+
+
+<view>
+  <m-e bindclicks="eee">
+
+  </m-e>
+</view>

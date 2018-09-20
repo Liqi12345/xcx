@@ -1,0 +1,5 @@
+/* pages/c/c.wxss */
+@import '/pages/a/a.wxss';
+input{
+  font-size:50rpx;
+}

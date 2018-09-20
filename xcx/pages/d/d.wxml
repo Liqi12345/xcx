@@ -1,0 +1,6 @@
+<!--pages/d/d.wxml-->
+<view>
+<text bindtap='ontap'>pages/d/d.wxml</text>
+<view >{{parametod}}</view>
+</view>
+
